@@ -7,7 +7,7 @@ yum install epel-release
 
 
 # install nginx, update config file
-yum install nginx
+yum -y install nginx
 #sudo wget <config file path> -O /etc/nginx
 systemctl start nginx
 systemctl enable nginx
