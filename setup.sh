@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #setup
-yum install update
+yum -y install update
 yum -y update
-yum install epel-release
+yum -y install epel-release
 
 
 # install nginx, update config file
